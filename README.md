@@ -4,6 +4,14 @@
 
 [![Shiny application validation](https://github.com/YisaAdeniyiAbolade/ladseir-shiny/actions/workflows/app-validation.yaml/badge.svg)](https://github.com/YisaAdeniyiAbolade/ladseir-shiny/actions/workflows/app-validation.yaml)
 
+[![Launch live app](https://img.shields.io/badge/Launch-Live%20App-2ea44f?logo=posit&logoColor=white)](https://019fabd0-6dc7-b38d-7605-290af14e8ceb.share.connect.posit.cloud/)
+
+## Live application
+
+**[Launch the LAD-SEIR Interactive Calibration and Forecasting Laboratory](https://019fabd0-6dc7-b38d-7605-290af14e8ceb.share.connect.posit.cloud/)**
+
+The hosted application runs on Posit Connect Cloud and uses the `ladseir` R package as its computational engine.
+
 The LAD-SEIR Interactive Calibration and Forecasting Laboratory is a professional Shiny application for robust calibration, paired sensitivity analysis, simulation, and forecasting with time-varying susceptible-exposed-infectious-removed models.
 
 The application uses the [`ladseir`](https://github.com/YisaAdeniyiAbolade/lad-seir-calibration) R package as its statistical engine. The package repository remains the authoritative source for the methodology, tested computational functions, manuscript reproducibility workflow, data, and numerical results. This repository provides the interactive application layer.
