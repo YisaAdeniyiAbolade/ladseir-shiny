@@ -1,0 +1,33 @@
+Package: ladseirshiny
+Type: Shiny
+Title: LAD-SEIR Interactive Calibration and Forecasting Laboratory
+Version: 0.1.0
+Authors@R: c(
+    person("Yisa", "Abolade",
+           email = "aadepojuabolade@gmail.com",
+           role = c("aut", "cre"))
+    )
+Description: A professional Shiny interface for robust least absolute deviations
+    and least-squares calibration, paired sensitivity analysis, simulation, and
+    forecasting with time-varying susceptible-exposed-infectious-removed models.
+License: GPL (>= 3)
+Encoding: UTF-8
+Depends:
+    R (>= 4.1.0)
+Imports:
+    shiny (>= 1.8.0),
+    bslib (>= 0.9.0),
+    bsicons (>= 0.1.2),
+    ggplot2 (>= 3.5.0),
+    plotly (>= 4.10.0),
+    DT (>= 0.33),
+    jsonlite (>= 1.8.8),
+    htmltools (>= 0.5.8),
+    ladseir (>= 0.1.0)
+Suggests:
+    testthat (>= 3.2.0),
+    remotes (>= 2.5.0),
+    rsconnect (>= 1.3.0),
+    renv (>= 1.0.0)
+Remotes:
+    YisaAdeniyiAbolade/lad-seir-calibration
